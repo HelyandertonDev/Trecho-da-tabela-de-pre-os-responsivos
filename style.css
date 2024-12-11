@@ -1,0 +1,52 @@
+/* Estilo para os cartões de planos */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Efeito de foco nas células da tabela */
+  .card-body:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Estilo personalizado para o botão */
+  .btn-custom {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .btn-custom:hover {
+    background-color: #45a049;
+    color: white;
+  }
+  
+  /* Estilo para a coluna de preço */
+  .price-column {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para as características do plano */
+  .features-column {
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* Lista de características dos planos */
+  .features-column ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .features-column li {
+    margin-bottom: 10px;
+  }
+  

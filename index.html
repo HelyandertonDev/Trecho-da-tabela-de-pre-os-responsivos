@@ -5,8 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tabela de Preços Vertical</title>
   <!-- Link para o arquivo CSS externo -->
-  <link href="style.css" rel="stylesheet">
-
+  <link href="styles.css" rel="stylesheet">
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
@@ -14,63 +13,60 @@
 
   <div class="container mt-5">
     <h2 class="text-center mb-4">Tabela de Preços</h2>
-    <div class="row">
-      <div class="col-md-4">
-        <div class="card shadow-sm">
+    <div class="row justify-content-center">
+      <!-- Plano Básico -->
+      <div class="col-12 col-md-4 mb-4">
+        <div class="card pricing-card">
           <div class="card-header text-center">
             <h4>Plano Básico</h4>
           </div>
           <div class="card-body">
-            <div class="price-column">
-              R$ 29,99/mês
+            <div class="price">
+              <span class="price-value">R$ 29,99</span>/mês
             </div>
-            <div class="features-column">
-              <ul>
-                <li>1 Usuário</li>
-                <li>10GB de Armazenamento</li>
-              </ul>
-            </div>
-            <button class="btn btn-custom w-100">Assinar</button>
+            <ul class="features">
+              <li>1 Usuário</li>
+              <li>10GB de Armazenamento</li>
+            </ul>
+            <button class="btn btn-primary w-100">Assinar</button>
           </div>
         </div>
       </div>
 
-      <div class="col-md-4">
-        <div class="card shadow-sm">
+      <!-- Plano Intermediário -->
+      <div class="col-12 col-md-4 mb-4">
+        <div class="card pricing-card">
           <div class="card-header text-center">
             <h4>Plano Intermediário</h4>
           </div>
           <div class="card-body">
-            <div class="price-column">
-              R$ 59,99/mês
+            <div class="price">
+              <span class="price-value">R$ 59,99</span>/mês
             </div>
-            <div class="features-column">
-              <ul>
-                <li>5 Usuários</li>
-                <li>50GB de Armazenamento</li>
-              </ul>
-            </div>
-            <button class="btn btn-custom w-100">Assinar</button>
+            <ul class="features">
+              <li>5 Usuários</li>
+              <li>50GB de Armazenamento</li>
+            </ul>
+            <button class="btn btn-primary w-100">Assinar</button>
           </div>
         </div>
       </div>
 
-      <div class="col-md-4">
-        <div class="card shadow-sm">
+      <!-- Plano Avançado -->
+      <div class="col-12 col-md-4 mb-4">
+        <div class="card pricing-card">
           <div class="card-header text-center">
             <h4>Plano Avançado</h4>
           </div>
           <div class="card-body">
-            <div class="price-column">
-              R$ 99,99/mês
+            <div class="price">
+              <span class="price-value">R$ 99,99</span>/mês
             </div>
-            <div class="features-column">
-              <ul>
-                <li>Ilimitado Usuários</li>
-                <li>200GB de Armazenamento</li>
-              </ul>
-            </div>
-            <button class="btn btn-custom w-100">Assinar</button>
+            <ul class="features">
+              <li>Ilimitado Usuários</li>
+              <li>200GB de Armazenamento</li>
+            </ul>
+            <button class="btn btn-primary w-100">Assinar</button>
           </div>
         </div>
       </div>
